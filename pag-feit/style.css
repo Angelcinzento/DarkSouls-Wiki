@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(72deg, rgba(172, 54, 38, 0.85) 10% , rgba(3, 10, 8, 0.85) 99%);
+}
+
+#menu-h {
+    background-color: rgb(32, 32, 37);
+}
+
+#menu-h ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(32, 32, 37);
+}
+
+#menu-h ul li {
+    display: inline;
+    position: relative;
+}
+
+#menu-h ul li a{
+color: floralwhite;
+padding: 20px;
+text-decoration: none;
+display: inline-block;
+transition: background .4s;
+}
+
+.jogar{
+    float: right;
+    background-color: brown;
+    }
+
+#menu-h ul li a:hover{
+    background-color: rgb(197, 139, 24);
+    }
+
+        /*sub menu*/
+
+        #menu-h ul ul {
+            display: none;
+            left: 0;
+            position: absolute;
+        }
+
+        #menu-h ul li:hover ul {
+            display: block;
+        }
+
+        #menu-h ul ul {
+            width: 150px;
+        }
+
+        #menu-h ul ul li a{
+            display: block;
+        }

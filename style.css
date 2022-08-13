@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+    --cor1 : rgba(20, 16, 30, 0);
+    --cor2 : #b7ac39db;
+    --cor3 : rgb(150, 47, 47);
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+body {
+    background-image: url(imagens/wallpaperrrr.jpg);
+    background-size:cover
+    
+    
+}
+
+.h11 {
+    font-size: 35px;
+    color: #9ba2a8;
+    
+}
+
+
+.corpo {
+    width: 900px;
+    margin: auto;
+}
+
+.conteudo {
+    display: table;
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+    
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 200px;
+    margin-top: -20px;
+    margin-left: 20px;
+    color: #9ba2a8
+}
+
+.texto1 {
+    color: #9ba2a8;
+}
+
+
+.logo {
+    width: 300px;
+    margin: 10px
+}
+
+#menu-h {
+    background-color: rgb(32, 32, 37);
+}
+
+#menu-h ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(32, 32, 37);
+}
+
+#menu-h ul li {
+    display: inline;
+    position: relative;
+}
+
+#menu-h ul li a{
+color: floralwhite;
+padding: 20px;
+text-decoration: none;
+display: inline-block;
+transition: background .4s;
+}
+
+.jogar{
+    float: right;
+    background-color: brown;
+    }
+
+#menu-h ul li a:hover{
+    background-color: rgb(197, 139, 24);
+    }
+
+        /*sub menu*/
+
+        #menu-h ul ul {
+            display: none;
+            left: 0;
+            position: absolute;
+        }
+
+        #menu-h ul li:hover ul {
+            display: block;
+        }
+
+        #menu-h ul ul {
+            width: 150px;
+        }
+
+        #menu-h ul ul li a{
+            display: block;
+        }
+
+        .p_1 {
+            color: rgba(96, 101, 120, 0.87);
+        }
